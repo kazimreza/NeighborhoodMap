@@ -6,11 +6,11 @@ By Kazim Reza
 <h1><strong>Udacity Neighborhood Map: </strong></h1>
 <h2>Project7 - FEND</h2>
 <a href="https://review.udacity.com/#!/rubrics/17/view" target="_blank">Project Specifications</a>
-<strong>By: Kazim Reza</strong>
+<p><strong>By: Kazim Reza</strong></p>
 
-<h2>Project Link: https://cdn.rawgit.com/kazimreza/Project7/master/index.html </h2>
+<a href="https://cdn.rawgit.com/kazimreza/Project7-NeighborhoodMap/master/index.html" target="_blank"><h2>Project Link:  </h2>
 
-<h2>Basic Description</h2>
+<h2>Basic Description</h2></a>
 <ul>
 <li>This project is using Google Maps API to display the <strong>St. Louis, MO</strong></li>
 <li>Map shows multiple attractions in St. Louis, MO</li>
