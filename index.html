@@ -1,0 +1,46 @@
+<!--    Udacity Project 7 Neighborhood Map
+        By Kazim Reza 12/5/2016     -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>Welcome to St. Louis</title>
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<div id="StLMap"></div>
+	<h1>Welcome to St. Louis Missouri</h1>
+	<div class="hidden-xs" id="search-container">
+		<div id="search-nav">
+			<input autocomplete="off" data-bind="textInput: query, valueUpdate: 'keydown'" id="input" placeholder="Search St. Louis" type="input">
+			<div id="scroller">
+				<br>
+				<ul data-bind="template: {name: 'marker', foreach:destinations}"></ul>
+				<script id="marker" type="text/html">
+                    <div data-bind="visible: visible">
+                        <a href="#" data-bind="attr: {id: id}">
+                            <li>
+                                <strong data-bind="text: name"></strong>
+                            </li>
+                        </a>
+                    </div>
+				</script>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.1.1.min.js" type="text/javascript">
+	</script> 
+	<script src="js/knockout3.4.1.js" type="text/javascript">
+	</script> 
+	<script src="js/list.js" type="text/javascript">
+	</script> 
+	<script src="js/apis.js" type="text/javascript">
+	</script> 
+	<script async src="js/script.js" type="text/javascript">
+	</script> 
+	<script src="js/koModel.js" type="text/javascript">
+	</script>
+</body>
+</html>
