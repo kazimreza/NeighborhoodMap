@@ -8,7 +8,7 @@ By Kazim Reza
 <a href="https://review.udacity.com/#!/rubrics/17/view" target="_blank">Project Specifications</a>
 <p><strong>By: Kazim Reza</strong></p>
 
-<a href="https://cdn.rawgit.com/kazimreza/Project7-NeighborhoodMap/master/index.html" target="_blank"><h2>Project Link:  </h2>
+<a href="https://cdn.rawgit.com/kazimreza/Project7-NeighborhoodMap/master/index.html" target="_blank"><h2>Project Link</h2>
 
 <h2>Basic Description</h2></a>
 <ul>
